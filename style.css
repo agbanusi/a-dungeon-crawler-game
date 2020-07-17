@@ -1,0 +1,75 @@
+.welcome {
+  height: 50vh;
+  width: 50vw;
+  display: grid;
+  place-items: center;
+  border: 0.5rem solid #827717;
+  background-color: white;
+  border-radius: 1rem;
+  animation: fade ease 3s;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+button {
+  margin: 1rem;
+  width: 5.5rem;
+  padding: 0.5rem;
+  background-color: #4db6ac;
+  border-radius: 1rem;
+  border: 0px;
+}
+button:focus {
+  outline: none;
+}
+.tell {
+}
+.board {
+  border: 0.35rem solid #ffca28;
+  border-radius: 0.35rem;
+  height: 70vh;
+  width: 80vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.top h3 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+#hint {
+  text-align: center;
+}
+.tint {
+  color: green;
+  font-size: 3.5rem;
+  margin-top: -50vh;
+  margin-left: 30vw;
+}
+#lose {
+  color: red;
+  font-size: 3.5rem;
+  margin-top: -10vh;
+  margin-left: 30vw;
+}
+p {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.it {
+  height: 70vh;
+}
+.total {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
